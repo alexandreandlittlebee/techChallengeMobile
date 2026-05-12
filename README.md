@@ -33,23 +33,23 @@ bashgit clone https://github.com/alexandreandlittlebee/techChallengeMobile.git
 
 2. Instale as dependências de cada parte
 
-cd Back-End_Blog && npm install
+  cd Back-End_Blog && npm install
 
-cd ../Front-End_Blog && npm install
+  cd ../Front-End_Blog && npm install
 
-cd ../Mobile_Blog && npm install
+  cd ../Mobile_Blog && npm install
 
 3. Configure o banco de dados
-O projeto usa MongoDB local. Certifique-se de que o MongoDB está rodando antes de iniciar o back-end:
+  O projeto usa MongoDB local. Certifique-se de que o MongoDB está rodando antes de iniciar o back-end:
 mongodb://localhost:27017/blog
 
 4. Inicie cada serviço
 
-cd Back-End_Blog && npm start
+  cd Back-End_Blog && npm start
 
-cd Front-End_Blog && npm run dev
+  cd Front-End_Blog && npm run dev
 
-cd Mobile_Blog && npx expo start
+  cd Mobile_Blog && npx expo start
 
 Principais rotas da API:
 
