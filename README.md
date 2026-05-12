@@ -44,9 +44,10 @@ bashgit clone https://github.com/alexandreandlittlebee/techChallengeMobile.git
 mongodb://localhost:27017/blog
 
 4. Inicie cada serviço
-
+      # Back-end → http://localhost:4000
       cd Back-End_Blog && npm start
 
+      # Front-end → http://localhost:5173
       cd Front-End_Blog && npm run dev
 
       cd Mobile_Blog && npx expo start
